@@ -1,5 +1,6 @@
 {
   imports = [
+    ./fonts
     ./hardware
     ./hyprland
     ./sddm
