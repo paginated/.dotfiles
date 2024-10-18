@@ -13,6 +13,8 @@
         dpi-aware = true;
         line-height = 19;
         underline-offset = 19;
+
+        pad = "8x0";
       };
       cursor = {
         color = "2e3440 d8dee9";
