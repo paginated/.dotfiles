@@ -1,4 +1,8 @@
 {
+  imports = [
+    ./fish.nix
+  ];
+
   # Configure Foot
   programs.foot = {
     enable = true;
