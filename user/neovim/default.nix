@@ -42,5 +42,31 @@
 
       signcolumn = "yes";
     };
+    keymaps = [
+      {
+        key = "<Tab>";
+        mode = ["n"];
+        action = "<CMD>bn<CR>";
+        options = {
+          desc = "Switch to next buffer";
+        };
+      }
+      {
+        key = "<S-Tab>";
+        mode = ["n"];
+        action = "<CMD>bp<CR>";
+        options = {
+          desc = "Switch to previous buffer";
+        };
+      }
+      {
+        key = "<C-q>";
+        mode = ["n"];
+        action = "<CMD>bd<CR>";
+        options = {
+          desc = "Close the current buffer";
+        };
+      }
+    ];
   };
 }
