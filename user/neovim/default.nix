@@ -1,6 +1,8 @@
 {
   imports = [
     ./nord.nix
+    ./telescope.nix
+    ./web-devicons.nix
   ];
 
   # Configure Neovim
