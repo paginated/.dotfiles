@@ -8,6 +8,7 @@
     ./lsp.nix
     ./lspkind.nix
     ./lualine.nix
+    ./neogit.nix
     ./neoscroll.nix
     ./nord.nix
     ./oil.nix
