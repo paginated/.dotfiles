@@ -1,4 +1,8 @@
 {
+  imports = [
+    ./nord.nix
+  ];
+
   # Configure Neovim
   programs.nixvim = {
     enable = true;
