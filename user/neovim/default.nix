@@ -3,6 +3,7 @@
     ./nord.nix
     ./oil.nix
     ./telescope.nix
+    ./treesitter.nix
     ./web-devicons.nix
   ];
 
