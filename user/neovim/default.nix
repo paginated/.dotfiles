@@ -2,6 +2,7 @@
   imports = [
     ./autopairs.nix
     ./cmp.nix
+    ./colorizer.nix
     ./indent-blankline.nix
     ./lsp.nix
     ./neoscroll.nix
