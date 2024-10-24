@@ -10,6 +10,7 @@
     ./nord.nix
     ./oil.nix
     ./telescope.nix
+    ./todo-comments.nix
     ./treesitter.nix
     ./web-devicons.nix
   ];
