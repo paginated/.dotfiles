@@ -39,6 +39,8 @@
 
       undofile = true;
       undodir = "${config.home.homeDirectory}/.vim/undodir";
+
+      signcolumn = "yes";
     };
   };
 }
