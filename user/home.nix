@@ -15,6 +15,7 @@
 
     ./eza.nix
     ./gammastep.nix
+    ./gtk.nix
     ./git.nix
     ./ssh.nix
   ];
