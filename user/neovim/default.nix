@@ -1,5 +1,6 @@
 {
   imports = [
+    ./lsp.nix
     ./nord.nix
     ./oil.nix
     ./telescope.nix
