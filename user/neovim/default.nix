@@ -7,6 +7,7 @@
     ./indent-blankline.nix
     ./lsp.nix
     ./lspkind.nix
+    ./lualine.nix
     ./neoscroll.nix
     ./nord.nix
     ./oil.nix
