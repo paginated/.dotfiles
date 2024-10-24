@@ -9,6 +9,7 @@
     ./hyprland
     ./sddm
 
+    ./bash.nix
     ./bootloader.nix
     ./localization.nix
     ./networking.nix

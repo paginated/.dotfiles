@@ -5,6 +5,10 @@ let
   # Font size
   size = "10.2";
 in {
+  imports = [
+    ./fish.nix
+  ];
+
   # Configure Foot
   programs.foot = {
     enable = true;
