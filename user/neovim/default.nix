@@ -1,6 +1,7 @@
 {
   imports = [
     ./nord.nix
+    ./oil.nix
     ./telescope.nix
     ./web-devicons.nix
   ];
