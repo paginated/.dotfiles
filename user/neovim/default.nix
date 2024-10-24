@@ -1,6 +1,7 @@
 {
   imports = [
     ./cmp.nix
+    ./indent-blankline.nix
     ./lsp.nix
     ./nord.nix
     ./oil.nix
