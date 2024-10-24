@@ -7,6 +7,7 @@ let
 in {
   imports = [
     ./fish.nix
+    ./starship.nix
   ];
 
   # Configure Foot
