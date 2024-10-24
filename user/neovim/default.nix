@@ -5,6 +5,7 @@
     ./colorizer.nix
     ./indent-blankline.nix
     ./lsp.nix
+    ./lspkind.nix
     ./neoscroll.nix
     ./nord.nix
     ./oil.nix
