@@ -4,6 +4,7 @@
     ./hardware-configuration.nix
 
     # Include submodules
+    ./fonts
     ./hardware
     ./hyprland
     ./sddm
