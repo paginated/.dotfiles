@@ -26,6 +26,7 @@ in {
         color = "2e3440 d8dee9";
       };
       colors = {
+        alpha = 0.95;
         foreground = "d8dee9";
         background = "2e3440";
 
