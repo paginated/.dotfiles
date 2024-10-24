@@ -19,6 +19,8 @@ in {
         dpi-aware = true;
         line-height = 20;
         underline-offset = 20;
+
+        pad = "7x0";
       };
     };
   };
