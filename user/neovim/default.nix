@@ -3,6 +3,7 @@
     ./cmp.nix
     ./indent-blankline.nix
     ./lsp.nix
+    ./neoscroll.nix
     ./nord.nix
     ./oil.nix
     ./telescope.nix
