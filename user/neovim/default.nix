@@ -1,4 +1,4 @@
-{
+{config, ...}: {
   imports = [
     ./autopairs.nix
     ./cmp.nix
@@ -36,6 +36,9 @@
       shiftwidth = 4;
       softtabstop = 4;
       expandtab = true;
+
+      undofile = true;
+      undodir = "${config.home.homeDirectory}/.vim/undodir";
     };
   };
 }
