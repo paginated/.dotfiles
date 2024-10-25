@@ -15,6 +15,16 @@ in {
     enable = true;
     profiles.default = {
       isDefault = true;
+      settings = {
+        # Auto install extensions
+        "extensions.autoDisableScopes" = 0;
+      };
+      extensions = with (import ./addons.nix {inherit (pkgs) lib stdenv fetchurl;}); [
+        touch-vpn
+        sponsorblock
+        ublock-origin
+        privacy-badger
+      ];
       extraConfig = builtins.readFile "${nordic}/configuration/user.js";
     };
   };
