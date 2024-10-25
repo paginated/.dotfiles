@@ -67,6 +67,15 @@
         "5,persistent:true"
       ];
 
+      # Animations
+      animations = {
+        enabled = true;
+        animation = [
+          "global, 1, 3, default"
+          "workspaces, 0, 3, default"
+        ];
+      };
+
       # Misc
       misc = {
         disable_hyprland_logo = true;
