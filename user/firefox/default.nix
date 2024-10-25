@@ -53,6 +53,22 @@ in {
         "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includePocket" =
           false;
 
+        # Layout
+        "browser.uiCustomization.state" = builtins.toJSON {
+          currentVersion = 20;
+          newElementCount = 5;
+          dirtyAreaCache = ["nav-bar" "PersonalToolbar" "toolbar-menubar" "TabsToolbar" "widget-overflow-fixed-list"];
+          placements = {
+            PersonalToolbar = ["personal-bookmarks"];
+            TabsToolbar = ["tabbrowser-tabs" "new-tab-button" "alltabs-button"];
+            nav-bar = ["back-button" "forward-button" "stop-reload-button" "urlbar-container" "downloads-button" "touch-vpn_anchorfree_com-browser-action" "unified-extensions-button"];
+            toolbar-menubar = ["menubar-items"];
+            unified-extensions-area = [];
+            widget-overflow-fixed-list = [];
+          };
+          seen = ["touch-vpn_anchorfree_com-browser-action" "jid1-mnnxcxisbpnsxq_jetpack-browser-action" "sponsorblocker_ajay_app-browser-action" "ublock0_raymondhill_net-browser-action" "developer-button"];
+        };
+
         # Auto install extensions
         "extensions.autoDisableScopes" = 0;
       };
