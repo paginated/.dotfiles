@@ -73,6 +73,7 @@
         animation = [
           "global, 1, 3, default"
           "workspaces, 0, 3, default"
+          "windowsOut, 1, 3, default, popin 87%"
         ];
       };
 
