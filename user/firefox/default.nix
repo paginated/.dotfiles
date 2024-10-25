@@ -14,6 +14,7 @@ in {
   programs.firefox = {
     enable = true;
     policies = {
+      DisablePocket = true;
       OverrideFirstRunPage = "";
     };
     profiles.default = {
@@ -35,6 +36,22 @@ in {
         "browser.bookmarks.restore_default_bookmarks" = false;
         "browser.messaging-system.whatsNewPanel.enabled" = false;
         "datareporting.policy.dataSubmissionPolicyBypassNotification" = true;
+
+        # Fully disable pocket
+        # Source: https://git.sr.ht/~rycee/configurations/tree/master/item/user/firefox.nix#L63-77
+        "extensions.pocket.enabled" = false;
+        "extensions.pocket.api" = "0.0.0.0";
+        "extensions.pocket.site" = "0.0.0.0";
+        "extensions.pocket.showHome" = false;
+        "extensions.pocket.onSaveRecs" = false;
+        "extensions.pocket.loggedOutVariant" = "";
+        "extensions.pocket.oAuthConsumerKey" = "";
+        "extensions.pocket.onSaveRecs.locales" = "";
+        "browser.newtabpage.activity-stream.pocketCta" = "";
+        "browser.newtabpage.activity-stream.section.highlights.includePocket" =
+          false;
+        "services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includePocket" =
+          false;
 
         # Auto install extensions
         "extensions.autoDisableScopes" = 0;
